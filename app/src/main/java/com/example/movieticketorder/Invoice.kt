@@ -32,7 +32,7 @@ class Invoice : AppCompatActivity() {
             payment.text=Fee
             numberOfSeat.text=NumberOfSeat
             totalPayment.text=TotalPayment
-            paymentMethod.text=PaymentMethod
+            paymentMethod.text=PaymentMethod + " " + "Mobile Banking"
             Glide.with(this@Invoice).load(image).into(imageMovie)
         }
     }
