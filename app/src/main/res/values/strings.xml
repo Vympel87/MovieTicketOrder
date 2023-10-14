@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieTicketOrder</string>
+    <string name="title_app">BiosTix</string>
+    <string name="aggreement1">By Creating an account, you agree to Application</string>
+    <string name="aggreement2">Term of Use and Privacy Policy</string>
+    <string name="bawah3">Doesnt have an account yet?</string>
+    <string name="bawah4">Register</string>
+    <string name="btn_login">LogIn</string>
+    <string name="greet">Hello,</string>
+    <string name="placeholder_1">User</string>
+    <string name="Question">What movie do you want to watch?</string>
+    <string name="title_description">Available Movie</string>
+    <string name="movie_1">All Quite on the Western Front</string>
+    <string name="movie_2">Barbie</string>
+    <string name="movie_3">Oppenheimer</string>
+    <string name="movie_4">Suzume no Tojimari</string>
+    <string name="movie_5">Tennet</string>
+    <string name="movie_6">Interstellar</string>
+    <string name="movie_7">Bullet Train</string>
+    <string name="movie_8">Balerina</string>
+</resources>
