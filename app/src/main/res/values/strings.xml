@@ -9,13 +9,102 @@
     <string name="greet">Hello,</string>
     <string name="placeholder_1">User</string>
     <string name="Question">What movie do you want to watch?</string>
-    <string name="title_description">Available Movie</string>
-    <string name="movie_1">All Quite on the Western Front</string>
-    <string name="movie_2">Barbie</string>
-    <string name="movie_3">Oppenheimer</string>
-    <string name="movie_4">Suzume no Tojimari</string>
-    <string name="movie_5">Tennet</string>
-    <string name="movie_6">Interstellar</string>
-    <string name="movie_7">Bullet Train</string>
-    <string name="movie_8">Balerina</string>
+    <string name="title_description">Available Movies</string>
+    <string name="btn_order">Order Now</string>
+    <string name="payment_title">Payment</string>
+
+    <array name="title">
+        <item>All Quite on the Western Front</item>
+        <item>Suzume no Tojimari</item>
+        <item>Barbie</item>
+        <item>Ballerina</item>
+        <item>Interstellar</item>
+        <item>Oppenheimer</item>
+        <item>Bullet Train</item>
+        <item>Tennet</item>
+    </array>
+
+    <array name="description">
+        <item>it follows the life of an idealistic young German soldier named Paul Bäumer.
+            After enlisting in the German Army with his friends, Bäumer finds himself exposed to the
+            realities of war,
+            shattering his early hopes of becoming a hero as he does his best to survive.
+        </item>
+        <item>17-year-old Suzume who meets a mysterious young man named Souta looking for a door in
+            the mountains.
+            Suzume later finds out that the door is one of many appearing in lonely areas across
+            Japan
+            that are responsible for various disasters.
+        </item>
+        <item>Set in the colorful Barbie Land, stereotypical Barbie lives a perfect life every
+            single day.
+            One day, she shows signs of being...a human. She decides to go to the Real World to find
+            the cure
+            in order to make herself perfect again.
+        </item>
+        <item>Ok-Ju is good at physical activities such as martial arts, sword fighting,
+            marksmanship, and motorbike riding.
+            Ok-Ju is friends with Min-Hee, who is a ballerina. One day, Ok-Ju found Min-Hee dead at
+            her house.
+        </item>
+        <item>Earth last chance to find a habitable planet before a lack of resources causes the
+            human race to go extinct.
+            The film protagonist is Cooper (Matthew McConaughey), a former NASA pilot who is tasked
+            with leading a mission
+            through a wormhole to find a habitable planet in another galaxy.
+        </item>
+        <item>In 1942, during World War II, U.S. Army General Leslie Groves recruits Oppenheimer
+            to lead the Manhattan Project to develop an atomic bomb. Oppenheimer, who is Jewish,
+            is particularly driven by the Nazis potentially completing their nuclear weapons
+            program, headed by Heisenberg.
+        </item>
+        <item>ichi Kimura, (The Father), boards a bullet train in Tokyo in search of the attacker of
+            his son Wataru.
+            Meanwhile, guided by his handler Maria Beetle, assassin (Ladybug) is assigned to
+            retrieve a briefcase full of cash
+            from the same train, replacing a sick colleague, Carver.
+        </item>
+        <item>The film follows a former CIA agent who is recruited into a secretive organization
+            called "Tenet"
+            who can reverse the flow of time and is trying to prevent an attack from the future that
+            threatens
+            to annihilate the present world.
+        </item>
+    </array>
+
+    <array name="Director">
+        <item>Edward Berger</item>
+        <item>Makoto Shinkai</item>
+        <item>Greta Gerwig</item>
+        <item>Lee Chung-hyeon</item>
+        <item>Christopher Nolan</item>
+        <item>Christopher Nolan</item>
+        <item>David Leitch</item>
+        <item>Christopher Nolan</item>
+    </array>
+
+    <array name="Bioskop">
+        <item>XXI Jogja City Mall</item>
+        <item>Empire XXI </item>
+        <item>XXI Plaza Ambarukmo</item>
+        <item>CGV Pakuwon Mall</item>
+        <item>Cinepolis Lippo Plaza</item>
+        <item>Sleman City Hall XXI</item>
+        <item>CGV Jwalk Mall</item>
+    </array>
+
+    <array name="Jenis_Seat">
+        <item>Reguler</item>
+        <item>Premiere</item>
+        <item>VIP</item>
+    </array>
+
+    <array name="Bank">
+        <item>BCA</item>
+        <item>BNI</item>
+        <item>BRI</item>
+        <item>BSI</item>
+        <item>MANDIRI</item>
+    </array>
+
 </resources>

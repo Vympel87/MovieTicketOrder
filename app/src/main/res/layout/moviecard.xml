@@ -6,7 +6,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:id="@+id/clothingCard"
         android:layout_margin="10dp"
         android:layout_weight="1"
@@ -21,21 +21,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/all_quite_in_the_western_front"
-                android:text="@string/movie_1"
-                android:textSize="10sp"
+                android:id="@+id/judul"
+                android:text="All Quite on the Western Front"
+                android:textSize="12sp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/poppins_semibold"
                 android:layout_marginTop="10dp"
                 android:layout_centerHorizontal="true"
-                android:layout_below="@+id/clothingImage"/>
+                android:layout_below="@+id/image"/>
 
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:id="@+id/clothingImage"
+                android:id="@+id/image"
                 android:src="@drawable/all_quite_in_the_western_front"
                 android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
                 android:layout_centerHorizontal="true"/>
 
         </RelativeLayout>
