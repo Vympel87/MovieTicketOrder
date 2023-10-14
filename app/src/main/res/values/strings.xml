@@ -84,13 +84,12 @@
     </array>
 
     <array name="Bioskop">
-        <item>XXI Jogja City Mall</item>
-        <item>Empire XXI </item>
-        <item>XXI Plaza Ambarukmo</item>
-        <item>CGV Pakuwon Mall</item>
-        <item>Cinepolis Lippo Plaza</item>
-        <item>Sleman City Hall XXI</item>
-        <item>CGV Jwalk Mall</item>
+        <item>XXI Solo Square</item>
+        <item>Solo Paragon XXI </item>
+        <item>Grand XXI</item>
+        <item>The Park XXI</item>
+        <item>Platinum Cineplex Pakuwon Mall Solo</item>
+        <item>CGV Transmart Solo</item>
     </array>
 
     <array name="Jenis_Seat">
