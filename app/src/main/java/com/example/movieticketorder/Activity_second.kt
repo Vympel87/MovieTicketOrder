@@ -12,6 +12,7 @@ class Activity_second : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySecondBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         replaceFragment(TopMovieFragment())
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {

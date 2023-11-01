@@ -8,6 +8,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.movieticketorder.databinding.FragmentTopMovieBinding
 
+private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"
+
 class TopMovieFragment : Fragment() {
 
     private lateinit var MovieRecyclerView: RecyclerView
@@ -18,9 +21,19 @@ class TopMovieFragment : Fragment() {
     lateinit var Director: Array<String>
     lateinit var genres: List<String>
     lateinit var MovieGenre: Array<ArrayList<String>>
+    private var param1: String? = null
+    private var param2: String? = null
 
     private var _binding: FragmentTopMovieBinding? = null
     private val binding get() = _binding!!
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        arguments?.let {
+            param1 = it.getString(ARG_PARAM1)
+            param2 = it.getString(ARG_PARAM2)
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -59,9 +72,9 @@ class TopMovieFragment : Fragment() {
             arrayListOf(genres[1], genres[5], genres[6]),
             arrayListOf(genres[1], genres[2], genres[5]),
             arrayListOf(genres[2], genres[3], genres[7]),
-            arrayListOf(genres[3], genres[4], genres[8]),
-            arrayListOf(genres[3], genres[5], genres[9]),
-            arrayListOf(genres[0], genres[6], genres[9]),
+            arrayListOf(genres[3], genres[4], genres[7]),
+            arrayListOf(genres[3], genres[5], genres[7]),
+            arrayListOf(genres[0], genres[6], genres[7]),
             arrayListOf(genres[0], genres[4], genres[7])
         )
 
@@ -89,5 +102,25 @@ class TopMovieFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    companion object {
+        /**
+         * Use this factory method to create a new instance of
+         * this fragment using the provided parameters.
+         *
+         * @param param1 Parameter 1.
+         * @param param2 Parameter 2.
+         * @return A new instance of fragment ProfileFragment.
+         */
+        // TODO: Rename and change types and number of parameters
+        @JvmStatic
+        fun newInstance(param1: String, param2: String) =
+            ProfileFragment().apply {
+                arguments = Bundle().apply {
+                    putString(ARG_PARAM1, param1)
+                    putString(ARG_PARAM2, param2)
+                }
+            }
     }
 }
